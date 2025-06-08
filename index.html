@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Personal Portfolio</title>
+        <meta
+          name="description"
+          content="Professional web developer and designer portfolio"
+        />
+
+        <!-- Google Fonts -->
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
+
+        <!-- Font Awesome -->
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        />
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="styles.css" />
+      </head>
+      <body>
+        <!-- Navigation -->
+        <nav class="navbar" id="navbar">
+          <div class="nav-container">
+            <div class="logo">
+              <i class="fas fa-code"></i>
+              <span>Portfolio</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+              <li class="nav-item">
+                <a href="#home" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a href="#skills" class="nav-link">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+              </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+          <div class="hero-container">
+            <div class="hero-content">
+              <h1 class="hero-title">Glenn Omega</h1>
+              <p class="hero-subtitle">Web Developer | Designer</p>
+              <p class="hero-description">
+                Passionate about creating beautiful, functional, and
+                user-friendly digital experiences. I specialize in modern web
+                technologies and bring ideas to life through code.
+              </p>
+              <div class="hero-buttons">
+                <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+              </div>
+            </div>
+            <!-- <div class="hero-image">
+              <div class="hero-avatar">
+                <i class="fas fa-user"></i>
+              </div>
+            </div> -->
+            <div class="hero-image">
+              <div class="hero-avatar">
+                <!-- Ilisi ni nga linya -->
+                <!-- <i class="fas fa-user"></i> -->
+                <img src="mylogo.png" alt="My Logo" class="my-logo" />
+              </div>
+            </div>
+          </div>
+          <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+          </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="about">
+          <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+              <div class="about-image">
+                <div class="about-photo">
+                  <i class="fas fa-user-circle"></i>
+                </div>
+              </div>
+              <div class="about-text">
+                <h3>Hello, I'm Glenn Omega</h3>
+                <p>
+                  I'm a passionate website designer and web developer with over
+                  5 years of experience in crafting beautiful, dynamic, and
+                  responsive websites. My journey started with a simple
+                  curiosity about how websites work — and today, I combine both
+                  creative design and technical development to build digital
+                  experiences that truly stand out.
+                </p>
+                <p>
+                  I specialize in modern JavaScript frameworks, responsive web
+                  design, and user experience optimization. Whether it’s
+                  designing sleek UI layouts or writing clean, functional code,
+                  I bring ideas to life on the web. When I'm not coding or
+                  designing, you’ll find me exploring new tech trends,
+                  contributing to open-source projects, or enjoying the
+                  outdoors.
+                </p>
+                <div class="about-stats">
+                  <div class="stat">
+                    <h4>50+</h4>
+                    <p>Projects Completed</p>
+                  </div>
+                  <div class="stat">
+                    <h4>3+</h4>
+                    <p>Years Experience</p>
+                  </div>
+                  <div class="stat">
+                    <h4>20+</h4>
+                    <p>Happy Clients</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+          <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+              <div class="skill-category">
+                <h3>Frontend</h3>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span>HTML/CSS</span>
+                    <span>90%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="90"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span>JavaScript</span>
+                    <span>85%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="85"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span>React</span>
+                    <span>80%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="80"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-category">
+                <h3>Backend</h3>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span>Node.js</span>
+                    <span>75%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="75"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span>Python</span>
+                    <span>70%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="70"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span>MongoDB</span>
+                    <span>65%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="65"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-category">
+                <h3>Tools & Design</h3>
+                <div class="skill-icons">
+                  <div class="skill-icon">
+                    <i class="fab fa-git-alt"></i>
+                    <span>Git</span>
+                  </div>
+                  <div class="skill-icon">
+                    <i class="fab fa-figma"></i>
+                    <span>Figma</span>
+                  </div>
+                  <div class="skill-icon">
+                    <i class="fas fa-database"></i>
+                    <span>SQL</span>
+                  </div>
+                  <div class="skill-icon">
+                    <i class="fab fa-aws"></i>
+                    <span>AWS</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio">
+          <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="portfolio-grid">
+              <div class="portfolio-item">
+                <div class="portfolio-image">
+                  <i class="fas fa-laptop-code"></i>
+                </div>
+                <div class="portfolio-content">
+                  <h3>E-Commerce Platform</h3>
+                  <p>
+                    A full-stack e-commerce solution built with React and
+                    Node.js, featuring user authentication, payment integration,
+                    and admin dashboard.
+                  </p>
+                  <div class="portfolio-tech">
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">MongoDB</span>
+                  </div>
+                  <div class="portfolio-links">
+                    <a href="#" class="portfolio-link">
+                      <i class="fas fa-external-link-alt"></i>
+                      Live Demo
+                    </a>
+                    <a href="#" class="portfolio-link">
+                      <i class="fab fa-github"></i>
+                      Code
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="portfolio-item">
+                <div class="portfolio-image">
+                  <i class="fas fa-mobile-alt"></i>
+                </div>
+                <div class="portfolio-content">
+                  <h3>Task Management App</h3>
+                  <p>
+                    A responsive task management application with drag-and-drop
+                    functionality, real-time updates, and team collaboration
+                    features.
+                  </p>
+                  <div class="portfolio-tech">
+                    <span class="tech-tag">Vue.js</span>
+                    <span class="tech-tag">Firebase</span>
+                    <span class="tech-tag">CSS3</span>
+                  </div>
+                  <div class="portfolio-links">
+                    <a href="#" class="portfolio-link">
+                      <i class="fas fa-external-link-alt"></i>
+                      Live Demo
+                    </a>
+                    <a href="#" class="portfolio-link">
+                      <i class="fab fa-github"></i>
+                      Code
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="portfolio-item">
+                <div class="portfolio-image">
+                  <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="portfolio-content">
+                  <h3>Analytics Dashboard</h3>
+                  <p>
+                    A comprehensive analytics dashboard with interactive charts,
+                    real-time data visualization, and customizable reporting
+                    features.
+                  </p>
+                  <div class="portfolio-tech">
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">D3.js</span>
+                    <span class="tech-tag">Express</span>
+                  </div>
+                  <div class="portfolio-links">
+                    <a href="#" class="portfolio-link">
+                      <i class="fas fa-external-link-alt"></i>
+                      Live Demo
+                    </a>
+                    <a href="#" class="portfolio-link">
+                      <i class="fab fa-github"></i>
+                      Code
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="portfolio-item">
+                <div class="portfolio-image">
+                  <i class="fas fa-blog"></i>
+                </div>
+                <div class="portfolio-content">
+                  <h3>Blog Platform</h3>
+                  <p>
+                    A modern blog platform with markdown support, commenting
+                    system, and social media integration for content creators.
+                  </p>
+                  <div class="portfolio-tech">
+                    <span class="tech-tag">Next.js</span>
+                    <span class="tech-tag">Prisma</span>
+                    <span class="tech-tag">PostgreSQL</span>
+                  </div>
+                  <div class="portfolio-links">
+                    <a href="#" class="portfolio-link">
+                      <i class="fas fa-external-link-alt"></i>
+                      Live Demo
+                    </a>
+                    <a href="#" class="portfolio-link">
+                      <i class="fab fa-github"></i>
+                      Code
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+          <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+              <div class="contact-info">
+                <h3>Get In Touch</h3>
+                <p>
+                  I'm always interested in new opportunities and exciting
+                  projects. Let's discuss how we can work together!
+                </p>
+
+                <div class="contact-details">
+                  <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>glennocubillo101@gmail.com</span>
+                  </div>
+                  <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+63 9916550369</span>
+                  </div>
+                  <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Cebu City, Philippines</span>
+                  </div>
+                </div>
+
+                <div class="social-links">
+                  <a
+                    href="https://www.linkedin.com/feed/?trk=onboarding-landing"
+                    class="social-link"
+                  >
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                  <a href="https://github.com/GlennOmega" class="social-link">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="https://www.facebook.com/" class="social-link">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/glennocubillo/"
+                    class="social-link"
+                  >
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+
+              <form class="contact-form" id="contact-form">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" required />
+                  <span class="error-message" id="name-error"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" required />
+                  <span class="error-message" id="email-error"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    required
+                  ></textarea>
+                  <span class="error-message" id="message-error"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                  <span class="btn-text">Send Message</span>
+                  <i class="fas fa-paper-plane btn-icon"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+          <div class="container">
+            <div class="footer-content">
+              <div class="footer-text">
+                <p>&copy; 2025 Glenn Omega. All rights reserved.</p>
+              </div>
+              <div class="footer-social">
+                <a
+                  href="https://www.linkedin.com/feed/?trk=onboarding-landing"
+                  class="social-link"
+                >
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/GlennOmega" class="social-link">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.facebook.com/" class="social-link">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/glennocubillo/"
+                  class="social-link"
+                >
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <!-- Back to Top Button -->
+        <button class="back-to-top" id="back-to-top">
+          <i class="fas fa-chevron-up"></i>
+        </button>
+
+        <!-- JavaScript -->
+        <script src="script.js"></script>
+      </body>
+    </html>
+  </body>
+</html>
